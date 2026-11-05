@@ -1,0 +1,17 @@
+# 家計の実データやチームが作った結果を、うっかり公開しないための設定です。
+# 自分の家計で使うときは、data/sources/ の中も自分の資料に置き換わるので、
+# そもそもこのフォルダを公開リポジトリにしないでください。
+
+# 台帳（チームが作る）
+data/ledger/*
+!data/ledger/.gitkeep
+
+# チームが作るレポート
+reports/*
+!reports/.gitkeep
+!reports/README.md
+
+# OS・エディタのファイル
+.DS_Store
+Thumbs.db
+.vscode/
