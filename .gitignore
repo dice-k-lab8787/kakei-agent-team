@@ -11,6 +11,9 @@ reports/*
 !reports/.gitkeep
 !reports/README.md
 
+# 自動実行のログ（家計の数字が入る）
+logs/
+
 # OS・エディタのファイル
 .DS_Store
 Thumbs.db
